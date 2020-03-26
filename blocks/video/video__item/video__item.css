@@ -1,0 +1,61 @@
+@import url(./video__item_block/video__item_block.css);
+@import url(./video__item_link/video__item_link.css);
+@import url(./video__item_play/video__item_play.css);
+@import url(./video__item_subtitle/video__item_subtitle.css);
+@import url(./video__item_time/video__item_time.css);
+@import url(./video__item_title/video__item_title.css);
+
+.video__item{
+    width: 583px;
+    height: 323px;
+    color: #fff;
+    position: relative;
+}
+
+.video__item:first-of-type{
+    margin-right: 20px;
+}
+
+.video__item:hover .video__image{
+    opacity: 0.7;
+}
+
+@media screen and (max-width:1024px){
+    .video__item{
+        width: 456px;
+        height: 288px;
+    }
+    .video__item:first-of-type{
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .video__item{
+        max-width: 352px;
+        height: 200px;
+    }
+    .video__item:first-of-type{
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .video__item:first-of-type{
+        margin-bottom: 8px;
+    }
+    .video__item{
+        max-width: 343px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .video__item:first-of-type{
+        margin-bottom: 8px;
+    }
+    .video__item{
+        max-width: 288px;
+        height: 192px;
+    }
+}

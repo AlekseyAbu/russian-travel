@@ -1,0 +1,32 @@
+.places{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:1025px){
+    .places{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .places{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .places{
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places{
+        max-width: 320px;
+    }
+}

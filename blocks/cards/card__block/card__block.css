@@ -1,0 +1,29 @@
+@import url(./_text/card__block_text.css);
+
+.card__block{
+    width: 484px;
+}
+
+@media screen and (max-width:1024px){
+    .card__block{
+        width: 456px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card__block{
+        width: 352px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .card__block{
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__block{
+        display: none;
+    }
+}

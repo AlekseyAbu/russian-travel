@@ -1,0 +1,17 @@
+.card__block_text{
+    width: 484px;
+}
+
+@media screen and (max-width:375px){
+    .card__block_text{
+        margin: 0 auto;
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__block_text{
+        margin: 0 auto;
+        max-width: 288px;
+    }
+}

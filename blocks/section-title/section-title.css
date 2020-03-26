@@ -1,0 +1,47 @@
+@import url(./section-title_content/section-title_content.css);
+@import url(./section-title_cover/section-title_cover.css);
+
+
+.section-title{
+    max-width: 60%;
+    margin-top: 102px;
+    margin-bottom: 48px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+}
+
+@media screen and (max-width:1025px){
+    .section-title{
+        max-width: 928px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .section-title{
+        max-width: 720px;
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    } 
+}
+
+@media screen and (max-width:375px){
+    .section-title{
+        max-width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .section-title{
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+}

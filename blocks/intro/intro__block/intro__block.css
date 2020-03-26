@@ -1,0 +1,5 @@
+.intro__block{
+    max-width: 683px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+@import url(./section-subtitle_cover/section-subtitle_cover.css);
+
+.section-subtitle{
+    max-width: 640px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto 71px;
+}
+
+
+@media screen and (max-width:768px){
+    .section-subtitle{
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .section-subtitle{
+        margin-bottom: 24px;
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .section-subtitle{
+        margin-bottom: 24px;
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

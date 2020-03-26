@@ -1,0 +1,31 @@
+.video__item_block{
+    position: relative;
+    color: #fff;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1024px){
+    .video__item_block{
+        margin: 30px 30px 30px 35px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .video__item_block{
+        margin: 25px 24px 24px 24px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .video__item_block{
+        margin: 24px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .video__item_block{
+        margin: 16px;
+    }
+}

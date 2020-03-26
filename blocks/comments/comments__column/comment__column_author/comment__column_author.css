@@ -1,0 +1,33 @@
+.comment__column_author{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (max-width:768px){
+    .comment__column_author{
+        order: 2;
+        margin: 16px 0 24px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .comment__column_author{
+        order: 2;
+        margin: 16px 0 24px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .comment__column_author{
+        order: 2;
+        margin: 16px 0 24px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

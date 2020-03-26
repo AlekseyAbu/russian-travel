@@ -1,0 +1,13 @@
+.intro__text_numbers{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (max-width:375px){
+    .intro__text_numbers{
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

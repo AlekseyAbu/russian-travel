@@ -1,0 +1,51 @@
+@import url(./cards__link/cards__link.css);
+@import url(./cards__text/cards__text.css);
+@import url(./card__title/card__title.css);
+@import url(./card__image/card__image.css);
+@import url(./card__block/card__block.css);
+@import url(./card__main/card__main.css);
+@import url(./card__header/card__header.css);
+
+.cards{
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 72px;
+}
+.cards:nth-child(5){
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:1024px){
+    .cards{
+        max-width: 928px;
+        margin-bottom: 83px;
+    }
+    .cards:nth-child(5){
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cards{
+        max-width: 720px;
+        margin-bottom: 81px;
+    }
+    .cards:nth-child(5){
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:375px){
+    .cards{
+        max-width: 375px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .cards{
+        max-width: 320px;
+        margin-bottom: 24px;
+    }
+}

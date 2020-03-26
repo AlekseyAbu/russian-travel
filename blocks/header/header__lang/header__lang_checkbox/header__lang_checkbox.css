@@ -1,0 +1,21 @@
+.header__lang_checkbox{
+    display: inline-block;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+}
+
+.header__lang_checkbox:first-of-type{
+    margin-right: 18px;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:375px){
+    .header__lang_checkbox:first-of-type{
+        margin-right: 16px;
+    }
+}

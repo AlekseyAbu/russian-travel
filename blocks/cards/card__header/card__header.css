@@ -1,0 +1,19 @@
+.card__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:375px){
+    .card__header{
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__header{
+        margin-bottom: 32px;
+    }
+}
