@@ -1,5 +1,5 @@
-@import url(./section-title_content/section-title_content.css);
-@import url(./section-title_cover/section-title_cover.css);
+@import url(./_content/section-title_content.css);
+@import url(./_cover/section-title_cover.css);
 
 
 .section-title{

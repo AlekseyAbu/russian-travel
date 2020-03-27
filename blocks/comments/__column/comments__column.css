@@ -1,6 +1,6 @@
-@import url(./comment__column_author/comment__column_author.css);
-@import url(./comment__column_image/comment__column_image.css);
-@import url(./comment__column_text/comment__column_text.css);
+@import url(./__column_author/comment__column_author.css);
+@import url(./__column_image/comment__column_image.css);
+@import url(./__column_text/comment__column_text.css);
 
 .comments__column{
     width: calc((100% - 38px)/3);

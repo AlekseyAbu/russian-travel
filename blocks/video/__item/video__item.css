@@ -1,9 +1,9 @@
-@import url(./video__item_block/video__item_block.css);
-@import url(./video__item_link/video__item_link.css);
-@import url(./video__item_play/video__item_play.css);
-@import url(./video__item_subtitle/video__item_subtitle.css);
-@import url(./video__item_time/video__item_time.css);
-@import url(./video__item_title/video__item_title.css);
+@import url(./_block/video__item_block.css);
+@import url(./_link/video__item_link.css);
+@import url(./_play/video__item_play.css);
+@import url(./_subtitle/video__item_subtitle.css);
+@import url(./_time/video__item_time.css);
+@import url(./_title/video__item_title.css);
 
 .video__item{
     width: 583px;

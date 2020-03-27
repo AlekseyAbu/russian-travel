@@ -1,5 +1,5 @@
-@import url(./lead__image_foto/lead__image_foto.css);
-@import url(./lead__image_text/lead__image_text.css);
+@import url(./_foto/lead__image_foto.css);
+@import url(./_text/lead__image_text.css);
 
 .lead__image{
     max-width: 984px;

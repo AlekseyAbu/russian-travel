@@ -1,6 +1,6 @@
-@import url(./video__image/video__image.css);
-@import url(./video__item/video__item.css);
-@import url(./video__items/video__items.css);
+@import url(./__image/video__image.css);
+@import url(./__item/video__item.css);
+@import url(./__items/video__items.css);
 
 .video{
     max-width: 1184px;

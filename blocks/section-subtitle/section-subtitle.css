@@ -1,4 +1,4 @@
-@import url(./section-subtitle_cover/section-subtitle_cover.css);
+@import url(./_cover/section-subtitle_cover.css);
 
 .section-subtitle{
     max-width: 640px;

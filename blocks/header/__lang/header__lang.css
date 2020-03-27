@@ -1,4 +1,4 @@
-@import url(./header__lang_checkbox/header__lang_checkbox.css);
+@import url(./_checkbox/header__lang_checkbox.css);
 
 .header__lang{
     display: inline-block;

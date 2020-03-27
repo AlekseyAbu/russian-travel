@@ -1,7 +1,7 @@
-@import url(./intro__block/intro__block.css);
-@import url(./intro__content-row/intro__content-row.css);
-@import url(./intro__text/intro__text.css);
-@import url(./intro__title/intro__title.css);
+@import url(./__block/intro__block.css);
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
 
 .intro{
     max-width: 984px;
