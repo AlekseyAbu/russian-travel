@@ -1,4 +1,4 @@
-@import url(./_text/card__block_text.css);
+
 
 .card__block{
     width: 484px;
@@ -13,6 +13,12 @@
 @media screen and (max-width:768px){
     .card__block{
         width: 352px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .card__block{
+        display: none;
     }
 }
 

@@ -1,4 +1,3 @@
-@import url(./__column/comments__column.css);
 @import url(./__columns/comments__columns.css);
 
 .comments{
@@ -13,8 +12,7 @@
 @media screen and (max-width:1025px){
     .comments{
         max-width: 928px;
-    }
-    
+    }  
 }
 
 @media screen and (max-width:768px){

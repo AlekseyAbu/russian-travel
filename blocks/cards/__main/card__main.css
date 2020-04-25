@@ -4,6 +4,13 @@
     justify-content: flex-start;
 }
 
+@media screen and (max-width:520px){
+    .card__main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width:375px){
     .card__main{
         flex-direction: column;

@@ -1,0 +1,20 @@
+.lead__image-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px){
+    .lead__image-text{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .lead__image-text{
+        margin-left: 16px;
+    }
+}

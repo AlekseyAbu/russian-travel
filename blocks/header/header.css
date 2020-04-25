@@ -1,8 +1,22 @@
-@import url(./__cap/header__cap.css);
-@import url(./__lang/header__lang.css);
+@import url(./__langs/header__langs.css);
 @import url(./__logo/header__logo.css);
+@import url(./__checkbox/header__checkbox.css);
+@import url(./__lang/header__lang.css);
+
 
 .header{
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
     background-color:  #1F1F1F;
-    margin: auto;
 }
+
+@media screen and (max-width:1025px){
+    .header{
+        max-width: 90%;
+    }  
+}
+

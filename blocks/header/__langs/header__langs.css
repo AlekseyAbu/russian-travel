@@ -1,0 +1,13 @@
+
+.header__langs{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+}
+
+@media screen and (max-width:375px){
+    .header__langs_checkbox{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

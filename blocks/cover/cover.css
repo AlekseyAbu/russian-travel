@@ -1,7 +1,7 @@
 @import url(./__image/cover__image.css);
 
 .cover{
-    width: 1184px;
+    max-width: 1184px;
     height: 594px;
     margin: 102px auto 160px;
     display: flex;
@@ -9,6 +9,8 @@
     align-items: center;
     position: relative;
     background-size: cover;
+    text-decoration: none;
+    color: #fff;
 }
 
 .cover:hover .cover__image{
@@ -18,13 +20,13 @@
 
 @media screen and (max-width:1024px){
     .cover{
-        width: 1024px;
+        max-width: 1024px;
     }  
 }
 
 @media screen and (max-width:768px){
     .cover{
-        width: 768px;
+        max-width: 768px;
         height: 500px;
         margin-bottom: 102px;
     }  
@@ -32,7 +34,7 @@
 
 @media screen and (max-width:375px){
     .cover{
-        width: 375px;
+        max-width: 375px;
         height: 272px;
         margin-bottom: 48px;
     }  
@@ -40,7 +42,7 @@
 
 @media screen and (max-width:320px){
     .cover{
-        width: 320px;
+        max-width: 320px;
         height: 216px;
         margin-bottom: 48px;
     }  

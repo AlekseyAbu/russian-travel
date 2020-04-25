@@ -1,9 +1,14 @@
-@import url(./_url/card__link_url.css);
-
 .cards__link{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     text-decoration-line: underline;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cards__link:hover{
+    opacity: 0.8;
 }

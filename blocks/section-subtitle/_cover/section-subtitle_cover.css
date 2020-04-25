@@ -9,10 +9,25 @@
     position: relative;
 }
 
+@media screen and (max-width:902px){
+    .section-subtitle_cover{
+        margin-top: 65px;
+    }
+}
+
 @media screen and (max-width:768px){
     .section-subtitle_cover{
         max-width: 382px;
         margin-top: 45px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .section-subtitle_cover{
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
     }
 }
 

@@ -1,10 +1,37 @@
 @import url(./__image/lead__image.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
+@import url(./__image-foto/lead__image-foto.css);
+@import url(./__image-text/lead__image-text.css);
 
 .lead{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0;
+    
+    margin: 0 auto;
+    max-width: 984px;
+}
+
+@media screen and (max-width:1024px){
+    .cards{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cards{
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .cards{
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .cards{
+        max-width: 320px;
+    }
 }

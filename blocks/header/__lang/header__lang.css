@@ -1,14 +1,13 @@
-@import url(./_checkbox/header__lang_checkbox.css);
-
 .header__lang{
     display: inline-block;
-    list-style: none;
-    color: #fff;
+}
+
+.header__lang:first-of-type{
+    text-decoration-line: underline;
 }
 
 @media screen and (max-width:375px){
-    .header__lang_checkbox{
-        font-size: 18px;
-        line-height: 17px;
+    .header__lang:first-of-type{
+        margin-right: 16px;
     }
 }
