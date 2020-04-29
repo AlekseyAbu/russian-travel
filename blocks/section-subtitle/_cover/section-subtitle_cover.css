@@ -1,15 +1,12 @@
 .section-subtitle_cover{
     max-width: 382px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    text-align: center;
     margin-top: 134px;
     position: relative;
 }
 
-@media screen and (max-width:902px){
+@media screen and (max-width:946px){
     .section-subtitle_cover{
         margin-top: 65px;
     }
@@ -33,18 +30,13 @@
 
 @media screen and (max-width:375px){
     .section-subtitle_cover{
-        max-width: 343px;
         font-size: 14px;
         line-height: 17px;
-        margin: 0;
     }
 }
 
 @media screen and (max-width:320px){
     .section-subtitle_cover{
         max-width: 288px;
-        font-size: 14px;
-        line-height: 17px;
-        margin: 0;
     }
 }

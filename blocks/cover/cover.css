@@ -1,4 +1,6 @@
 @import url(./__image/cover__image.css);
+@import url(../section-title/_cover/section-title_cover.css);
+@import url(../section-subtitle/_cover/section-subtitle_cover.css);
 
 .cover{
     max-width: 1184px;

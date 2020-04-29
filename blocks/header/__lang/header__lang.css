@@ -2,12 +2,12 @@
     display: inline-block;
 }
 
-.header__lang:first-of-type{
-    text-decoration-line: underline;
+.header__lang{
+    margin-right: 18px;
 }
 
-@media screen and (max-width:375px){
-    .header__lang:first-of-type{
-        margin-right: 16px;
-    }
+.header__lang:nth-last-child(1){
+    margin-right: 0;
 }
+
+

@@ -12,23 +12,11 @@
 
 @media screen and (max-width:768px){
     .card__block{
-        width: 352px;
+        max-width: 352px;
     }
 }
 
-@media screen and (max-width:520px){
-    .card__block{
-        display: none;
-    }
-}
-
-@media screen and (max-width:375px){
-    .card__block{
-        display: none;
-    }
-}
-
-@media screen and (max-width:320px){
+@media screen and (max-width:720px){
     .card__block{
         display: none;
     }

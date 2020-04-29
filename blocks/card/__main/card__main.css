@@ -1,0 +1,13 @@
+.card__main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:520px){
+    .card__main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

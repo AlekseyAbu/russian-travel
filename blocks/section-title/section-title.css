@@ -40,8 +40,5 @@
 @media screen and (max-width:320px){
     .section-title{
         max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin-top: 20px;
     }
 }

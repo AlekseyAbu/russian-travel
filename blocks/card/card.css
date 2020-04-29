@@ -1,5 +1,5 @@
-@import url(./__link/cards__link.css);
-@import url(./__text/cards__text.css);
+@import url(./__link/card__link.css);
+@import url(./__text/card__text.css);
 @import url(./__title/card__title.css);
 @import url(./__image/card__image.css);
 @import url(./__block/card__block.css);
@@ -8,46 +8,45 @@
 @import url(./__link-url/card__link-url.css);
 @import url(./__block-text/card__block-text.css);
 
-.cards{
+.card{
     max-width: 984px;
     display: flex;
     flex-direction: column;
     margin-bottom: 72px;
 }
-.cards:nth-child(5){
+.card:nth-last-child(1){
     margin-bottom: 0;
 }
 
 @media screen and (max-width:1024px){
-    .cards{
+    .card{
         max-width: 928px;
         margin-bottom: 83px;
     }
-    .cards:nth-child(5){
+    .card:nth-child(5){
         margin-bottom: 0;
     }
 }
 
 @media screen and (max-width:768px){
-    .cards{
+    .card{
         max-width: 720px;
         margin-bottom: 81px;
     }
-    .cards:nth-child(5){
+    .card:nth-child(5){
         margin-bottom: 0;
     }
 }
 
 @media screen and (max-width:375px){
-    .cards{
+    .card{
         max-width: 375px;
         margin-bottom: 24px;
     }
 }
 
 @media screen and (max-width:320px){
-    .cards{
+    .card{
         max-width: 320px;
-        margin-bottom: 24px;
     }
 }

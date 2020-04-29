@@ -19,6 +19,7 @@
         margin-right: 28px;
         font-size: 42px;
         line-height: 46px;
+        width: 340px;
     }
 }
 
@@ -30,10 +31,3 @@
     }
 }
 
-@media screen and (max-width:320px){
-    .card__title{
-        margin-left: 16px;
-        font-size: 32px;
-        line-height: 35px;
-    }
-}

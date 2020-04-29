@@ -11,7 +11,6 @@
 
 @media screen and (max-width:320px){
     .card__block_text{
-        margin: 0 auto;
         max-width: 288px;
     }
 }

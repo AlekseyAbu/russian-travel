@@ -1,4 +1,4 @@
-.cards__link{
+.card__link{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -9,6 +9,6 @@
     text-decoration: underline;
 }
 
-.cards__link:hover{
+.card__link:hover{
     opacity: 0.8;
 }
