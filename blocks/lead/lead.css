@@ -13,25 +13,25 @@
 }
 
 @media screen and (max-width:1024px){
-    .cards{
+    .lead{
         max-width: 928px;
     }
 }
 
 @media screen and (max-width:768px){
-    .cards{
+    .lead{
         max-width: 768px;
     }
 }
 
 @media screen and (max-width:375px){
-    .cards{
+    .lead{
         max-width: 375px;
     }
 }
 
 @media screen and (max-width:320px){
-    .cards{
+    .lead{
         max-width: 320px;
     }
 }

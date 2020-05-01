@@ -22,9 +22,14 @@
 @media screen and (max-width:768px){
     .section-title{
         max-width: 720px;
+        margin-bottom: 24px;
+    } 
+}
+
+@media screen and (max-width:720px){
+    .section-title{
         font-size: 42px;
         line-height: 46px;
-        margin-bottom: 24px;
     } 
 }
 
