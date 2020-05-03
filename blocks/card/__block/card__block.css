@@ -1,18 +1,23 @@
 
-
 .card__block{
     width: 484px;
 }
 
 @media screen and (max-width:1024px){
     .card__block{
-        width: 456px;
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width:975px){
+    .card__block{
+        max-width: 50%;
     }
 }
 
 @media screen and (max-width:768px){
     .card__block{
-        max-width: 352px;
+        max-width: 50%;
     }
 }
 

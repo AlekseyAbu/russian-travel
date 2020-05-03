@@ -7,11 +7,10 @@
     max-width: 1184px;
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    margin-left: 48px;
-    margin-right: 48px;
+    
 }
 
 
@@ -29,7 +28,7 @@
     } 
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:673px){
     .footer{
         margin-left: 16px ;
         margin-right: 16px;

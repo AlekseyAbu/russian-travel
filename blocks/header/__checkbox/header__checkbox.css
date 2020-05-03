@@ -16,4 +16,11 @@
     opacity: 0.8;
 }
 
+@media screen and (max-width:320px){
+    .header__checkbox{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
 

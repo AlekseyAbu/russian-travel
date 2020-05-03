@@ -23,18 +23,12 @@
         max-width: 928px;
         margin-bottom: 83px;
     }
-    .card:nth-child(5){
-        margin-bottom: 0;
-    }
 }
 
 @media screen and (max-width:768px){
     .card{
         max-width: 720px;
         margin-bottom: 81px;
-    }
-    .card:nth-child(5){
-        margin-bottom: 0;
     }
 }
 

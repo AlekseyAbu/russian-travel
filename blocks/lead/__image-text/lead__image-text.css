@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:950px){
     .lead__image-text{
         margin-left: 24px;
     }
