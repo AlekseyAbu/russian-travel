@@ -4,26 +4,21 @@
     color: #fff;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 41px;
+    font-size: 16px;
+line-height: 18px;
 }
 
 .footer__link:hover{
     opacity: 0.5;
 }
 
-@media screen and (max-width:868px){
-    .footer__link{
-        font-size: 16px;
-        line-height: 27px;
-    }
-}
+
 
 @media screen and (max-width:375px){
     .footer__link{
-        font-size: 24px;
-        line-height: 41px;
         margin: 16px 0 0;
         padding: 0;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

@@ -22,6 +22,12 @@
     }
 }
 
+@media screen and (max-width:360px){
+    .card__block_text{
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width:320px){ 
     .card__block_text{
         max-width: 288px;
