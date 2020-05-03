@@ -8,6 +8,13 @@
 
 @media screen and (max-width:1024px){
     .card__image{
+        margin-right: 32px;
+        width: calc(50% - 24px);
+    }
+}
+
+@media screen and (max-width:975px){
+    .card__image{
         width: calc(50% - 24px);
         margin-right: 24px;
     }

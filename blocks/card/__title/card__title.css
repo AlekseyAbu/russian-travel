@@ -10,8 +10,14 @@
 
 @media screen and (max-width:1024px){
     .card__title{
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width:975px){
+    .card__title{
         margin-right: 15px;
-        max-width: calc((50% - 24px) + 8px);
+        max-width: calc(50% - 24px);
     }
 }
 
