@@ -1,23 +1,22 @@
-@import url(./__image/cover__image.css);
-@import url(../section-title/_cover/section-title_cover.css);
-@import url(../section-subtitle/_cover/section-subtitle_cover.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
 
 .cover{
     max-width: 1184px;
-    max-height: 594px;
-    margin: 102px auto 160px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    background-image: url(./../../images/sunset.png);
     background-size: cover;
-    text-decoration: none;
+    position: relative;
     color: #fff;
+    margin: 92px auto;
+    text-align: center; 
 }
 
-.cover:hover .cover__image{
-    opacity: 0.7;
-}
+
 
 
 @media screen and (max-width:1024px){
@@ -28,23 +27,14 @@
 
 @media screen and (max-width:768px){
     .cover{
+        margin: 88px auto;
         max-width: 768px;
-        margin-bottom: 102px;
     }  
 }
 
 @media screen and (max-width:375px){
     .cover{
         max-width: 375px;
-        height: 272px;
-        margin-bottom: 48px;
-    }  
-}
-
-@media screen and (max-width:320px){
-    .cover{
-        max-width: 320px;
-        height: 216px;
-        margin-bottom: 48px;
+        margin: 64px auto;
     }  
 }

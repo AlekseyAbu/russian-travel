@@ -2,34 +2,15 @@
     max-width: 484px;
 }
 
-
-@media screen and (max-width:1024px){ 
-    .card__block_text{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:720px){ 
-    .card__block_text{
-        max-width: 720px;
-    }
-}
-
 @media screen and (max-width:375px){
-    .card__block_text{
+    .card__block-text{
         margin: 0 auto;
         max-width: 343px;
     }
 }
 
-@media screen and (max-width:360px){
-    .card__block_text{
-        max-width: 90%;
-    }
-}
-
 @media screen and (max-width:320px){ 
-    .card__block_text{
+    .card__block-text{
         max-width: 288px;
     }
 }

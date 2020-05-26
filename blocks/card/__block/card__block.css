@@ -1,23 +1,11 @@
 
 .card__block{
-    width: 484px;
+    align-self: end;
 }
 
 @media screen and (max-width:1024px){
     .card__block{
         max-width: 456px;
-    }
-}
-
-@media screen and (max-width:975px){
-    .card__block{
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width:768px){
-    .card__block{
-        max-width: 50%;
     }
 }
 

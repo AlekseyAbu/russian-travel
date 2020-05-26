@@ -31,5 +31,5 @@
          url('./Inter-Regular.otf') format('otf'),
          url('./Inter-Regular.ttf') format('truetype');
     font-family: 'Inter';
-    font-weight: 400;
+    font-weight: normal;
 }

@@ -10,8 +10,10 @@
 
 .card{
     max-width: 984px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: fit-content(460px) 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 40px;
     margin-bottom: 72px;
 }
 .card:nth-last-child(1){
@@ -22,6 +24,8 @@
     .card{
         max-width: 928px;
         margin-bottom: 83px;
+        grid-template-columns: fit-content(440px) 1fr;
+        grid-gap: 32px;
     }
 }
 
@@ -29,13 +33,25 @@
     .card{
         max-width: 720px;
         margin-bottom: 81px;
+        grid-template-columns: fit-content(340px) 1fr;
+        grid-gap: 28px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .card{
+        max-width: 720px;
+        margin-bottom: 81px;
+        grid-template-columns: fit-content(720px);
+        margin: 0 auto 81px;
+        grid-gap: 32px;
     }
 }
 
 @media screen and (max-width:375px){
     .card{
         max-width: 375px;
-        margin-bottom: 24px;
+        margin: 0 0 81px;
     }
 }
 
