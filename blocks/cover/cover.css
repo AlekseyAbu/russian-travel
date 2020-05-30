@@ -4,18 +4,9 @@
 
 .cover{
     max-width: 1184px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./../../images/sunset.png);
-    background-size: cover;
     position: relative;
-    color: #fff;
-    margin: 92px auto;
-    text-align: center; 
+    margin: 0 auto;
 }
-
 
 
 
@@ -38,3 +29,4 @@
         margin: 64px auto;
     }  
 }
+

@@ -3,8 +3,8 @@
          url('./Inter-Black.woff2') format('woff2'),
          url('./Inter-Black.otf') format('otf'),
          url('./Inter-Black.ttf') format('truetype');
-    font-family: 'Inter';
-    font-weight: 900;
+        font-family: 'Inter';
+        font-weight: 900;
 }
 
 @font-face{
@@ -12,8 +12,8 @@
          url('./Inter-Bold.woff2') format('woff2'),
          url('./Inter-Bold.otf') format('otf'),
          url('./Inter-Bold.ttf') format('truetype');
-    font-family: 'Inter';
-    font-weight: 700;
+        font-family: 'Inter';
+        font-weight: 700;
 }
 
 @font-face{
@@ -21,8 +21,8 @@
          url('./Inter-Medium.woff2') format('woff2'),
          url('./Inter-Medium.otf') format('otf'),
          url('./Inter-Medium.ttf') format('truetype');
-    font-family: 'Inter';
-    font-weight: 500;
+        font-family: 'Inter';
+        font-weight: 500;
 }
 
 @font-face{
@@ -30,6 +30,6 @@
          url('./Inter-Regular.woff2') format('woff2'),
          url('./Inter-Regular.otf') format('otf'),
          url('./Inter-Regular.ttf') format('truetype');
-    font-family: 'Inter';
-    font-weight: normal;
+        font-family: 'Inter';
+        font-weight: normal;
 }

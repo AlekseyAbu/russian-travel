@@ -3,7 +3,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.card__text:last-child{
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:768px){
